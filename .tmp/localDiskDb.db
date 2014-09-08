@@ -1,0 +1,24 @@
+{
+  "data": {
+    "alumno": []
+  },
+  "schema": {
+    "alumno": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "alumno": {}
+  }
+}
