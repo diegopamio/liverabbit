@@ -1,7 +1,7 @@
 // spec.js
 describe('liverabbit homepage', function() {
     it('should have a title', function() {
-        browser.get('http://localhost:1337/');
+        browser.get('http://localhost:1337/home');
         element(by.id('usuario')).sendKeys('diego');
         element(by.id('password')).sendKeys('secreta');
         element(by.id('loginButton')).click();
