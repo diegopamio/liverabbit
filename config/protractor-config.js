@@ -2,7 +2,6 @@ extend = require("node.extend");
 
 var environment = process.env.NODE_ENV || "dev";
 
-console.log(process.env.NODE_ENV);
 var genericConfig = {
     specs: ['../test/spec.js']
 };
@@ -43,4 +42,3 @@ var configurationsByEnvironment = {
 };
 
 exports.config = configurationsByEnvironment[environment];
-console.log(configurationsByEnvironment[environment]);
