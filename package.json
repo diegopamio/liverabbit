@@ -27,7 +27,7 @@
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "test": "protractor config/protractor.config.js"
+    "test": "protractor config/protractor-config.js"
   },
   "main": "app.js",
   "repository": {
